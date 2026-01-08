@@ -8,13 +8,13 @@ vector<string> s4={"芭芭拉","班尼特","坎蒂斯","重云","多莉","迪奥
 "诺艾尔","雷泽","罗莎莉亚","早柚","鹿野院平藏","砂糖","托马","香菱","行秋",
 "辛焱","烟绯","瑶瑶","云堇"};
 string rands4(){
-    return s4[rand()%31];
+    return s4[rand()%s4.size()];
 }
 string randup4(){
-    return up_4[rand()%3];
+    return up_4[rand()%up_4.size()];
 }
 string rands5(){
-    return s5[rand()%7];
+    return s5[rand()%s5.size()];
 }
 int main(){
     srand(time(0));
